@@ -1,0 +1,102 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "user has to enter the chromebrowser and maximize window",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "line": 46,
+        "name": "The user selects the Spanish Omelete",
+        "description": "",
+        "id": "to-order-food-in-the-bisto-bites-application;the-user-selects-the-spanish-omelete",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 132264172600,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "The user has to launching url in Bisto bites application",
+            "match": {
+              "location": "Automationsamplebites.the_user_has_to_launching_url_in_Bisto_bites_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1382213100,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "The user has to Click the search icon1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 37
+                }
+              ],
+              "location": "Automationsamplebites.the_user_has_to_Click_the_search_icon(Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33458607200,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "The user Find out the Spanish Omelet and Click the icon",
+            "match": {
+              "location": "Automationsamplebites.the_user_Find_out_the_Spanish_Omelet_and_Click_the_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 136965500,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "check the dollar",
+            "match": {
+              "location": "Automationsamplebites.check_the_dollar()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Feature3"
+          },
+          {
+            "name": "@te4"
+          }
+        ]
+      }
+    ],
+    "name": "To order food in the Bisto bites application",
+    "description": "",
+    "id": "to-order-food-in-the-bisto-bites-application",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Bistobites.feature",
+    "tags": [
+      {
+        "name": "@Feature3",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

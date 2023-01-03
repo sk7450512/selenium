@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="167.261411">
+    <testcase classname="To order food in the Bisto bites application" name="The user selects the Spanish Omelete" time="167.261411">
+        <system-out><![CDATA[When The user has to launching url in Bisto bites application...............passed
+And The user has to Click the search icon1..................................passed
+And The user Find out the Spanish Omelet and Click the icon.................passed
+And check the dollar........................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
